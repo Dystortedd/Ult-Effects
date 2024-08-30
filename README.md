@@ -3,9 +3,11 @@ The ultimate effects pack. Text, Font, and much much more!
 <br/>Made with :heart: by Dystortedd
 
 # To-Do
+- [X] Add Text Effects support in the wiki.
 - [ ] Add Font Effects support in the wiki.
-- [ ] Start working on the leather shader effects.
+- [ ] Add leather shader effects.
 - [ ] Add screen effects.
+- [ ] Add animated font support.
 
 # How To Use
 
