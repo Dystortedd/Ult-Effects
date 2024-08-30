@@ -1,5 +1,6 @@
 # Ultimate Effects
-The ultimate effects pack, made with :heart: over a *long* period of time. Text, Font, and much much more!
+The ultimate effects pack, made with :heart: over a *long* period of time. 
+<br/>It contains text, font, and much more effects!
 <br/>Contact Me: `@dystortedd` on Discord.
 
 # To-Do
