@@ -1,6 +1,7 @@
 # Ultimate Effects
 The ultimate effects pack. Text, Font, and much much more!
 <br/>Made with :heart: by Dystortedd
+<br/>Contact Me: `Discord @dystortedd`
 
 # To-Do
 - [X] Add Text Effects support in the wiki.
