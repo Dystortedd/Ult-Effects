@@ -1,4 +1,4 @@
-# Ult-Effects
+# Ultimate Effects
 The ultimate effects pack. Text, Font, and much much more!
 <br/>Made with :heart: by Dystortedd
 
