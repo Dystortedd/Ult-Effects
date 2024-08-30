@@ -14,13 +14,15 @@ The ultimate effects pack. Text, Font, and much much more!
 ## Text Effects
 
 > [!TIP]
-> The config is located here: `[Pack Name]\assets\minecraft\shaders\include\config\text_shaders_config.glsl`
+> The config is located here:
+> `[Pack Name]\assets\minecraft\shaders\include\config\text_shaders_config.glsl`
 
 To create an effect, add the code below. the (255, 0, 255) represents the color, e.g. `#FF00FF` in this case.
 <br/>The function inside is going to tell the ressource pack what effect you want to give the specific color.
 
 > [!TIP]
-> A complete list of effects is available here: `[Pack Name]\assets\minecraft\shaders\include\effect\text_shaders.glsl`
+> A complete list of effects is available here:
+> `[Pack Name]\assets\minecraft\shaders\include\effect\text_shaders.glsl`
 
 ```
 TEXT_EFFECT(255, 0, 255) {
@@ -36,7 +38,8 @@ TEXT_EFFECT(255, 0, 255) {
 ## Font Effects
 
 > [!TIP]
-> The config is located here: `[Pack Name]\assets\minecraft\shaders\include\config\font_shaders_config.glsl`
+> The config is located here:
+> `[Pack Name]\assets\minecraft\shaders\include\config\font_shaders_config.glsl`
 
 This type of text effect is used for more global things that still need color hex support. Those font effects work with the text effects. 
 <br/>This works by offsetting the text by chunks of -5000, which will give them 1 id per -5000 ascent.
@@ -46,7 +49,8 @@ To create an effect, add the code below. the (1.0) represents the id, e.g. `asce
 <br/>The function inside is going to tell the ressource pack what effect this specific font will have.
 
 > [!TIP]
-> A complete list of effects is available here: `[Pack Name]\assets\minecraft\shaders\include\effect\font_shaders.glsl`
+> A complete list of effects is available here:
+> `[Pack Name]\assets\minecraft\shaders\include\effect\font_shaders.glsl`
 
 ```
 FONT_EFFECT(1.0) {
