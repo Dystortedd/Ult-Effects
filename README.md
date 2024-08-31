@@ -10,6 +10,11 @@ The ultimate effects pack, made with :heart: over a *long* period of time.
 - [ ] Add leather shader effects.
 - [ ] Add screen effects.
 
+# Credits:
+- Dragoncraft0000 (RP Contribution)
+- thederdiscohund (Help with understanding shaders)
+- Godlander       (Help with understanding shaders)
+
 # How To Use
 
 ## Text Effects
