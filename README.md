@@ -1,4 +1,4 @@
-# Ultimate Effects [Version 0.8]
+# Ultimate Effects [Version 0.9]
 The ultimate effects pack, made with :heart: over a *long* period of time. 
 <br/>It contains text, font, and much more effects!
 <br/>Contact Me: `@dystortedd` on Discord.
