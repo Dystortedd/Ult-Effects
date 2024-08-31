@@ -6,7 +6,7 @@ The ultimate effects pack, made with :heart: over a *long* period of time.
 # To-Do
 - [X] Add Text Effects support in the wiki.
 - [X] Add Font Effects support in the wiki.
-- [ ] Add animated font support.
+- [ ] Add animated font support. <br/>[IN A LONG TIME BECAUSE I WOULD LIKE TO MAKE 256x CHARACTERS ANIMATIONS]<br/>[WILL PROBABLY BE A NEW FUNCTION IN THE FONT EFFECTS]
 - [ ] Add leather shader effects.
 - [ ] Add screen effects.
 
