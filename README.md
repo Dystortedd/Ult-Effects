@@ -40,6 +40,7 @@ TEXT_EFFECT(255, 0, 255) {
 > [!WARNING]
 > You can only choose colors that are 4 colors away from each other.
 > <br/>This is because the shadow is `color / 4`, and the precision is divided by 4
+> <br/>It is a Minecraft issue, meaning there is nothing I can do about it.
 
 ## Font Effects
 
