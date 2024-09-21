@@ -55,7 +55,7 @@ This is used to anchor text to a position in the screen for example.
 To create an effect, add the code below. the (1.0) represents the id, e.g. `ascent: -5000` in this case.
 <br/>The function inside is going to tell the ressource pack what effect this specific font will have.
 
-> [!CAUTION]
+> [!TIP]
 > A complete list of effects is available here:
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\effect\font_shaders.glsl`
 
@@ -66,5 +66,5 @@ FONT_EFFECT(1.0) {
 ```
 
 > [!CAUTION]
-> Currently, Italic and Underlined text don't work with font effects.
+> Currently, Italic, Underlined and Title / Subtitle text don't work with font effects.
 > <br/>I will try to fix this issue one day.
