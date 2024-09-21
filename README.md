@@ -3,6 +3,8 @@ The ultimate effects pack, made with :heart: over a *long* period of time.
 <br/>It contains text, font, and much more effects!
 <br/>Contact Me: `@dystortedd` on Discord.
 
+<br/>**You Are free to use my pack, credits are not required but always appreciated**
+
 # To-Do
 - [X] Add Text Effects support in the wiki.
 - [X] Add Font Effects support in the wiki.
