@@ -1,4 +1,4 @@
-# Ultimate Effects [Version 0.9]
+# Ultimate Effects [Version 1.0]
 The ultimate effects pack, made with :heart: over a *long* period of time. 
 <br/>It contains text, font, and much more effects!
 <br/>Contact Me: `@dystortedd` on Discord.
@@ -38,8 +38,8 @@ TEXT_EFFECT(255, 0, 255) {
 
 
 > [!WARNING]
-> You can only choose colors that are 4 colors away from each other.
-> <br/>This is because the shadow is `color / 4`, and the precision is divided by 4
+> You can only choose colors that are with steps of 4.
+> <br/>This is because the shadow calculation is `color / 4`, and the precision is divided by 4
 > <br/>It is a Minecraft issue, meaning there is nothing I can do about it.
 
 ## Font Effects
@@ -55,7 +55,7 @@ This is used to anchor text to a position in the screen for example.
 To create an effect, add the code below. the (1.0) represents the id, e.g. `ascent: -5000` in this case.
 <br/>The function inside is going to tell the ressource pack what effect this specific font will have.
 
-> [!TIP]
+> [!CAUTION]
 > A complete list of effects is available here:
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\effect\font_shaders.glsl`
 
@@ -64,3 +64,7 @@ FONT_EFFECT(1.0) {
 	applyAnchor(-1.0, 2.0);
 }
 ```
+
+> [!CAUTION]
+> Currently, Italic and Underlined text don't work with font effects.
+> <br/>I will try to fix this issue one day.
