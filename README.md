@@ -26,7 +26,7 @@ The ultimate effects pack, made with :heart: over a *long* period of time.
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\config\text_shaders_config.glsl`
 
 To create an effect, add the code below. the (255, 0, 255) represents the color, e.g. `#FF00FF` in this case.
-<br/>The function inside is going to tell the ressource pack what effect you want to give the specific color.
+The function inside is going to tell the ressource pack what effect you want to give the specific color.<br/>
 
 > [!TIP]
 > A complete list of effects is available here:
@@ -67,7 +67,7 @@ FONT_EFFECT(1.0) {
 	screen_anchor(-1.0, 2.0);
 }
 ```
-<br/>Command Example: '/title @a actionbar {"text":"Hello World Hello World","color":"#ff0000","font":"ult_effects:top_left_anchor"}'
+Command Example: '/title @a actionbar {"text":"Hello World Hello World","color":"#ff0000","font":"ult_effects:top_left_anchor"}'<br/>
 
 
 > [!CAUTION]
