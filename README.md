@@ -26,18 +26,18 @@ The ultimate effects pack, made with :heart: over a *long* period of time.
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\config\text_shaders_config.glsl`
 
 To create an effect, add the code below. the (255, 0, 255) represents the color, e.g. `#FF00FF` in this case.
-The function inside is going to tell the ressource pack what effect you want to give the specific color.<br/>
+The function inside is going to tell the ressource pack what effect you want to give the specific color.
 
 > [!TIP]
 > A complete list of effects is available here:
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\effect\text_shaders.glsl`
+> <br/>Command Example: '/title @a actionbar {"text":"Oh Wow, Rainbows !","color":"#ff00ff"}'
 
 ```
 TEXT_EFFECT(255, 0, 255) {
 	rainbow(-1.0);
 }
 ```
-<br/>Command Example: '/title @a actionbar {"text":"Oh Wow, Rainbows !","color":"#ff00ff"}'
 
 
 > [!WARNING]
@@ -61,13 +61,13 @@ To create an effect, add the code below. the (1.0) represents the id, e.g. `asce
 > [!TIP]
 > A complete list of effects is available here:
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\effect\font_shaders.glsl`
+> <br/>Command Example: '/title @a actionbar {"text":"Hello World Hello World","color":"#ff0000","font":"ult_effects:top_left_anchor"}'
 
 ```
 FONT_EFFECT(1.0) {
 	screen_anchor(-1.0, 2.0);
 }
 ```
-Command Example: '/title @a actionbar {"text":"Hello World Hello World","color":"#ff0000","font":"ult_effects:top_left_anchor"}'<br/>
 
 
 > [!CAUTION]
