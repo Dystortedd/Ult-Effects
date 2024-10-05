@@ -37,8 +37,8 @@ TEXT_EFFECT(255, 0, 255) {
 	rainbow(-1.0);
 }
 ```
-Command Example: '/title @a actionbar {"text":"Oh Wow, Rainbows !","color":"#ff00ff"}'
-<br/>
+<br/>Command Example: '/title @a actionbar {"text":"Oh Wow, Rainbows !","color":"#ff00ff"}'
+
 
 > [!WARNING]
 > You can only choose colors that are with steps of 4.
@@ -67,8 +67,8 @@ FONT_EFFECT(1.0) {
 	screen_anchor(-1.0, 2.0);
 }
 ```
-Command Example: '/title @a actionbar {"text":"Hello World Hello World","color":"#ff0000","font":"ult_effects:top_left_anchor"}'
-<br/>
+<br/>Command Example: '/title @a actionbar {"text":"Hello World Hello World","color":"#ff0000","font":"ult_effects:top_left_anchor"}'
+
 
 > [!CAUTION]
 > Currently, Italic, Underlined and Title / Subtitle text don't work with font effects.
