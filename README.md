@@ -31,7 +31,8 @@ The function inside is going to tell the ressource pack what effect you want to 
 > [!TIP]
 > A complete list of effects is available here:
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\effect\text_shaders.glsl`
-> <br/>**Command Example:** `/title @a actionbar {"text":"Oh Wow, Rainbows !","color":"#ff00ff"}`
+> <br/>**Command Example:**
+> <br/>`/title @a actionbar {"text":"Oh Wow, Rainbows !","color":"#ff00ff"}`
 
 ```
 TEXT_EFFECT(255, 0, 255) {
@@ -61,7 +62,8 @@ To create an effect, add the code below. the (1.0) represents the id, e.g. `asce
 > [!TIP]
 > A complete list of effects is available here:
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\effect\font_shaders.glsl`
-> <br/>**Command Example:** `/title @a actionbar {"text":"Hello World Hello World","color":"#ff0000","font":"ult_effects:top_left_anchor"}`
+> <br/>**Command Example:**
+> <br/>`/title @a actionbar {"text":"Hello World Hello World","color":"#ff0000","font":"ult_effects:top_left_anchor"}`
 
 ```
 FONT_EFFECT(1.0) {
