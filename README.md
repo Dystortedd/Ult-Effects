@@ -73,5 +73,5 @@ FONT_EFFECT(1.0) {
 
 
 > [!CAUTION]
-> Currently, Italic, Underlined and Title / Subtitle text don't work with font effects.
-> <br/>I will try to fix this issue one day.
+> Doesn't work on Italic Text, Item Lore, Item Name, 3D Spaces, Underlined Text (only the underline)
+> <br/>I will try to fix those issues one day.
