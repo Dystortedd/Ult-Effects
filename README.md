@@ -75,3 +75,4 @@ FONT_EFFECT(1.0) {
 > [!CAUTION]
 > Doesn't work on Italic Text, 3D Spaces, Underlined Text (only the underline)
 > <br/>I will try to fix those issues one day.
+> <br/>Also doesn't work on title shadow (I will fix this in priority)
