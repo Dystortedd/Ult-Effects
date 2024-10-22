@@ -82,6 +82,15 @@ FONT_EFFECT(1.0) {
 > [!TIP]
 > The config is located here:
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\configs\leather.glsl`
+> <br/>**Command Example:**
+> <br/>`/give @p leather_chestplate[dyed_color=16712703] 1`
+
+```
+LEATHER_EFFECT(255, 0, 255) {
+	leather.color.rgb *= animation(vec2(0, 0), 8.0, 1.0, 1000.0, true).rgb;
+}
+```
+
 
 This effect replaces a hex color and transforms it. It can be whatever you want, from gradients, new colors, and even a completely new texture.
 <br/>I made this obviously to rival Origin Realms' leather effects, which were pretty hype back then.
