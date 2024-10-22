@@ -83,7 +83,7 @@ FONT_EFFECT(1.0) {
 > The config is located here:
 > <br/>`[Pack Name]\assets\minecraft\shaders\include\configs\leather.glsl`
 > <br/>**Command Example:**
-> <br/>`/give @p leather_chestplate[dyed_color=16712703] 1`
+> <br/>`/give @p leather_chestplate[dyed_color=16711935] 1`
 
 ```
 LEATHER_EFFECT(255, 0, 255) {
