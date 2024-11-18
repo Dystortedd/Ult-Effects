@@ -35,20 +35,6 @@
             "height": 1,
 			"chars":["\uE004"]	
 		},
-		{
-			"type": "bitmap",
-			"file": "ult_effects:unicode/overlays/stars.png",
-			"ascent": -40068,
-            "height": 1,
-			"chars":["\uE005"]	
-		},
-				{
-			"type": "bitmap",
-			"file": "ult_effects:unicode/overlays/stars2.png",
-			"ascent": -40068,
-            "height": 1,
-			"chars":["\uE006"]	
-		},
         {
             "type": "bitmap",
             "file": "minecraft:font/ascii.png",
