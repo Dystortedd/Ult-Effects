@@ -38,6 +38,7 @@ out vec4 fragColor;
 struct Text {
 	float id;
 	vec4 glPos;
+    int glVertex;
 
 	vec4 color;
 	bool isShadow;
