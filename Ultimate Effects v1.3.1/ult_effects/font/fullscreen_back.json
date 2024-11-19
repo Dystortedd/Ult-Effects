@@ -10,35 +10,35 @@
 				{
 			"type": "bitmap",
 			"file": "ult_effects:unicode/overlays/black.png",
-			"ascent": -40068,
+			"ascent": -35068,
             "height": 1,
 			"chars":["\uE001"]	
 		},
 		{
 			"type": "bitmap",
 			"file": "ult_effects:unicode/overlays/cinematic.png",
-			"ascent": -40068,
+			"ascent": -35068,
             "height": 1,
 			"chars":["\uE002"]	
 		},
 				{
 			"type": "bitmap",
 			"file": "ult_effects:unicode/overlays/vignette.png",
-			"ascent": -40068,
+			"ascent": -35068,
             "height": 1,
 			"chars":["\uE003"]	
 		},
-		{
+				{
 			"type": "bitmap",
 			"file": "ult_effects:unicode/overlays/powder_snow_outline.png",
-			"ascent": -40068,
+			"ascent": -35068,
             "height": 1,
 			"chars":["\uE004"]	
 		},
         {
             "type": "bitmap",
             "file": "minecraft:font/ascii.png",
-            "ascent": -40068,
+            "ascent": -35068,
             "height": 8,
             "chars": [
                 "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
@@ -62,7 +62,7 @@
         {
             "type": "bitmap",
             "file": "minecraft:font/nonlatin_european.png",
-            "ascent": -40055,
+            "ascent": -35055,
             "chars": [
                 "\u00a1\u2030\u00ad\u00b7\u20b4\u2260\u00bf\u00d7\u00d8\u00de\u04bb\u00f0\u00f8\u00fe\u0391\u0392",
                 "\u0393\u0394\u0395\u0396\u0397\u0398\u0399\u039a\u039b\u039c\u039d\u039e\u039f\u03a0\u03a1\u03a3",
@@ -137,7 +137,7 @@
             "type": "bitmap",
             "file": "minecraft:font/accented.png",
             "height": 12,
-            "ascent": -40052,
+            "ascent": -35052,
             "chars": [
                 "\u00c0\u00c1\u00c2\u00c3\u00c4\u00c5\u00c6\u00c7\u00c8\u00c9\u00ca\u00cb\u00cc\u00cd\u00ce\u00cf",
                 "\u00d0\u00d1\u00d2\u00d3\u00d4\u00d5\u00d6\u00d9\u00da\u00db\u00dc\u00dd\u00e0\u00e1\u00e2\u00e3",

@@ -40,6 +40,7 @@ struct Text {
 	vec4 glPos;
     int glVertex;
 
+    float alphaRead;
 	vec4 color;
 	bool isShadow;
 
@@ -65,6 +66,7 @@ void main() {
 	text.id = fontID;
 
 	text.color = baseColor;
+    text.alphaRead = baseColor.a;
 
 	vec2 glCornerUV1 = glCornerTex1.xy / glCornerTex1.z;
 	vec2 glCornerUV2 = glCornerTex2.xy / glCornerTex2.z;

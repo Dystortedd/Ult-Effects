@@ -11,12 +11,6 @@ bool isFontID(float idToExpect) {
 	return fontConfirmed;
 }
 
-vec2[] corners = vec2[](
-  vec2(-2, 2),
-  vec2(-2,-2),
-  vec2( 2,-2),
-  vec2( 2, 2)
-);
 
 //////////////////
 // FONT EFFECTS //
@@ -30,10 +24,17 @@ void screen_anchor(float x, float y) {
 
 
 void fullscreen(float z, float zoom) {
-    text.glPos = vec4(corners[text.glVertex % 4], z, 2);
+    vec2[] corners = vec2[](
+    vec2(-1 * zoom -1, 1 * zoom +1),
+    vec2(-1 * zoom -1),
+    vec2(1 * zoom +1, -1 * zoom -1),
+    vec2(1 * zoom +1)
+    );
 
-    if (zoom != 0.) {
-        text.glPos = vec4(corners[1 % 4], z, (1 + zoom) + (text.color.a * zoom));
+    text.glPos = vec4(corners[text.glVertex % 4], z, 1);
+
+    if (zoom > 0) {
+        text.glPos = vec4(corners[text.glVertex % 4], z,1 + zoom * text.alphaRead);
     }
 }
 
