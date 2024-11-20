@@ -27,16 +27,3 @@ FONT_EFFECT(6.0) {
 FONT_EFFECT(7.0) {
 	fullscreen(0.0,0);
 }
-
-
-FONT_EFFECT(9.0) {
-	fullscreen(-1.0,0.5);
-}
-
-FONT_EFFECT(10.0) {
-	fullscreen(0.0,0.5);
-}
-
-FONT_EFFECT(11.0) {
-	fullscreen(1.0,0.5);
-}
