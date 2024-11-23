@@ -1,4 +1,4 @@
-# Ultimate Effects [Version 1.3.1]
+# Ultimate Effects [Version 1.4]
 The ultimate effects pack, made with :heart: over a *long* period of time. 
 <br/>It contains text, font, and much more effects!
 <br/>Contact Me: `@dystortedd` on Discord.
@@ -10,7 +10,7 @@ The ultimate effects pack, made with :heart: over a *long* period of time.
 - [X] Add Font Effects support in the wiki.
 - [X] Add leather shader effects.
 - [ ] Add animated font support. <br/>In a long time because I would like to make 256x characters animations<br/>Will probably be a new function in the text effects.
-- [ ] Add screen effects.
+- [X] Add screen effects.
 
 # Credits:
 - Dragoncraft0000 (RP Contribution)
