@@ -1,8 +1,0 @@
-{
-	"sources":[
-	   {
-		   "type": "single",
-		   "resource": "ult_effects:shader/sprite_sheet"
-	   }
-	]
- }
