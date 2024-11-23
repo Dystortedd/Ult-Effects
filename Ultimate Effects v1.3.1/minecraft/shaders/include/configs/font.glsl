@@ -17,3 +17,13 @@ FONT_EFFECT(4.0) {
 FONT_EFFECT(5.0) {
 	font_waving();
 }
+
+
+
+FONT_EFFECT(6.0) {
+	fullscreen(-1.0,0.5);
+}
+
+FONT_EFFECT(7.0) {
+	fullscreen(0.0,0);
+}

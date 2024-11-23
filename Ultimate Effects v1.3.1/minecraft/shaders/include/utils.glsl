@@ -13,6 +13,23 @@
 // COLOR UTILS //
 /////////////////
 
+vec4 HeatMapColor(float value, float minValue, float maxValue)
+{
+    vec4[] colors = vec4[](
+        vec4(0.32, 0.00, 0.32, 1.00),
+        vec4(0.00, 0.00, 1.00, 1.00),
+        vec4(0.00, 1.00, 0.00, 1.00),
+        vec4(1.00, 1.00, 0.00, 1.00),
+        vec4(1.00, 0.60, 0.00, 1.00),
+        vec4(1.00, 0.00, 0.00, 1.00)
+    );
+    float ratio= 5. * (value / (maxValue - minValue));
+    int indexMin = int(floor(ratio));
+    int indexMax= int(min(indexMin + 1,5));
+    return mix(colors[indexMin], colors[indexMax], ratio - indexMin);
+}
+
+
 vec3 hsvToRgb(vec3 c) {
     vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
     vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);

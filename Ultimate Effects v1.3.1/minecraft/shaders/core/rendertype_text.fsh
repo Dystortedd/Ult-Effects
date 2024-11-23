@@ -38,7 +38,9 @@ out vec4 fragColor;
 struct Text {
 	float id;
 	vec4 glPos;
+    int glVertex;
 
+    float alphaRead;
 	vec4 color;
 	bool isShadow;
 
@@ -64,6 +66,7 @@ void main() {
 	text.id = fontID;
 
 	text.color = baseColor;
+    text.alphaRead = baseColor.a;
 
 	vec2 glCornerUV1 = glCornerTex1.xy / glCornerTex1.z;
 	vec2 glCornerUV2 = glCornerTex2.xy / glCornerTex2.z;
@@ -105,6 +108,6 @@ void main() {
 	vec4 color = textureSample * text.color * ColorModulator * lightColor;
 
 	if(isMap > 0.5) color = texture(Sampler0, texCoord0) * baseColor * lightColor * ColorModulator;
-    if(color.a < 0.1) discard;
+    if(color.a < 1 / 255.) discard;
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }

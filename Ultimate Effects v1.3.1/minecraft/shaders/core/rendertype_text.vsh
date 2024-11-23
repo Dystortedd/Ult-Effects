@@ -42,7 +42,9 @@ out float isMap;
 struct Text {
 	float id;
 	vec4 glPos;
+    int glVertex;
 
+    float alphaRead;
 	vec4 color;
 	bool isShadow;
 
@@ -87,7 +89,9 @@ void main() {
 	pos.y = mod(pos.y + 1000.0, 5000.0) - 1000.0;
 	gl_Position = ProjMat * ModelViewMat * pos;
 
+    text.alphaRead = baseColor.a;
 	text.glPos = gl_Position;
+    text.glVertex = gl_VertexID;
 
 	// if(Position.z == 2400.0 && gl_Position.y >= 0.0) text.id *= 0.25; // Title Shadow
 	// if(Position.z == 2400.0 && gl_Position.y < 0.0) text.id *= 0.5; // Subtitle Shadow
