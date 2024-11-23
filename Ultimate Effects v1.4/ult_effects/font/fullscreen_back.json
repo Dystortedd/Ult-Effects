@@ -1,0 +1,32 @@
+{
+    "providers":[
+		{
+			"type": "bitmap",
+			"file": "ult_effects:unicode/overlays/black.png",
+			"ascent": -35068,
+            "height": 1,
+			"chars":["\uE001"]	
+		},
+		{
+			"type": "bitmap",
+			"file": "ult_effects:unicode/overlays/cinematic.png",
+			"ascent": -35068,
+            "height": 1,
+			"chars":["\uE002"]	
+		},
+				{
+			"type": "bitmap",
+			"file": "ult_effects:unicode/overlays/vignette.png",
+			"ascent": -35068,
+            "height": 1,
+			"chars":["\uE003"]	
+		},
+				{
+			"type": "bitmap",
+			"file": "ult_effects:unicode/overlays/powder_snow_outline.png",
+			"ascent": -35068,
+            "height": 1,
+			"chars":["\uE004"]	
+		}
+    ]
+}
